@@ -17,4 +17,4 @@ function wait(n) {
   return myPromise;
 }
 
-console.log(wait(2000));
+module.exports = wait;
